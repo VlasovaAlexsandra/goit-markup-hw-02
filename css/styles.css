@@ -1,0 +1,73 @@
+/* цвет фона шапки #FFFFFF; */
+/* цвет фона команды #2F303A */
+/* цвет фона подвала #2F303A */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --logo-text-color: #000000;
+    --hero-text-color: #FFFFFF;
+    --primary-bg-color: #E5E5E5;
+}
+
+/* logo */
+.logo {
+    color: var(--logo-text-color);
+    text-decoration: none;
+}
+
+.logo > .accent {
+    color: var(--accent-text-color);
+}
+    
+/* body */
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);    
+}
+
+.list {
+    list-style: none;
+}
+
+/* site-nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-text-color);
+}
+
+.contacts .link {
+    color: var(--title-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-text-color);
+}
+
+/* hero */
+.hero-title {
+    color: var(--hero-text-color);
+}
+
+/* section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+.button.primary {
+    background-color: var(--accent-text-color);
+    color: #FFFFFF;
+    
+}
+
+
