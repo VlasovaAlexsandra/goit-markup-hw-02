@@ -9,6 +9,10 @@
     --logo-text-color: #000000;
     --hero-text-color: #FFFFFF;
     --primary-bg-color: #E5E5E5;
+    --footer-text-color: #FFFFFF;
+    --button-text-color: #212121;
+    --address-text-color: rgba(255, 255, 255, 0.6);
+    --button-bg-color: #F5F4FA;
 }
 
 /* logo */
@@ -67,7 +71,27 @@ body {
 .button.primary {
     background-color: var(--accent-text-color);
     color: #FFFFFF;
-    
+}
+
+.btn .button.primary {
+    background: var(--button-bg-color);
+    color: var(--button-text-color);
+}
+
+.btn .button.primary:hover,
+.btn .button.primary:focus {
+    background-color: var(--accent-text-color);
+    color: #FFFFFF;
+}
+
+/* footer */
+.address {
+    color: var(--footer-text-color); 
+    font-style: normal;   
+}
+
+.address .link {
+    color: var(--address-text-color);
 }
 
 
