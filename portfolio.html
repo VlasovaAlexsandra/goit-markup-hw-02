@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">    
+    <link rel="stylesheet" href="./css/styles.css" />    
 </head>
 
-<body>
-    <!-- Шапка сайта -->
+<body class="body">
+    <!-- Шапка страницы -->
     <header class="page-header">
        <nav>
         <a href="WebStudio" class="logo"><span class="accent">Web</span>Studio</a>
@@ -26,69 +28,67 @@
        </nav>
     </header>
 
-    <main>
-        <!-- навигация по проектам -->
-        <section>
-            <!-- <h2>навигация по проектам</h2> -->
-            <ul class="btn list">
-                <li><button type="button" class="button primary">Все</button></li>
-                <li><button type="button" class="button primary">Веб-сайты</button></li>
-                <li><button type="button" class="button primary">Приложения</button></li>
-                <li><button type="button" class="button primary">Дизайн</button></li>
-                <li><button type="button" class="button primary">Маркетинг</button></li>
-            </ul>
-        </section>
-
-        <!-- проекты -->
+    <main>    
         <section class="section">
-            <!-- <h2>проекты</h2> -->
-            <ul class="list">
-                <li>
-                    <img src="./images/project-1.jpg" alt="проект" width="370">
-                    <h5 class="section-title">Технокряк</h5>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./images/project-2.jpg" alt="проект" width="370">
-                    <h5 class="section-title">Постер New Orlean vs Golden Star</h5>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <img src="./images/project-3.jpg" alt="проект" width="370">
-                    <h5 class="section-title">Ресторан Seafood</h5>
-                    <p>Приложение</p>
-                </li>
-                <li>
-                    <img src="./images/project-4.jpg" alt="проект" width="370">
-                    <h5 class="section-title">Проект Prime</h5>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./images/project-5.jpg" alt="проект" width="370">
-                    <h5 class="section-title">Проект Boxes</h5>
-                    <p>Приложение</p>
-                </li>
-                <li>
-                    <img src="./images/project-6.jpg" alt="проект" width="370">
-                    <h5 class="section-title">Inspiration has no Borders</h5>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./images/project-7.jpg" alt="проект" width="370">
-                    <h5 class="section-title">Издание Limited Edition</h5>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <img src="./images/project-8.jpg" alt="проект" width="370">
-                    <h5 class="section-title">Проект LAB</h5>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./images/project-9.jpg" alt="проект" width="370">
-                    <h5 class="section-title">Growing Business</h5>
-                    <p>Приложение</p>
-                </li>
-            </ul>
+            <!-- проекты -->
+            <div>
+                <ul class="btn list">
+                    <li><button type="button" class="button primary">Все</button></li>
+                    <li><button type="button" class="button primary">Веб-сайты</button></li>
+                    <li><button type="button" class="button primary">Приложения</button></li>
+                    <li><button type="button" class="button primary">Дизайн</button></li>
+                    <li><button type="button" class="button primary">Маркетинг</button></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="list">
+                    <li>
+                        <img src="./images/project-1.jpg" alt="проект" width="370">
+                        <h2 class="projects-title">Технокряк</h2>
+                        <p class="projects-text">Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img src="./images/project-2.jpg" alt="проект" width="370">
+                        <h2 class="projects-title">Постер New Orlean vs Golden Star</h2>
+                        <p class="projects-text">Дизайн</p>
+                    </li>
+                    <li>
+                        <img src="./images/project-3.jpg" alt="проект" width="370">
+                        <h2 class="projects-title">Ресторан Seafood</h2>
+                        <p class="projects-text">Приложение</p>
+                    </li>
+                    <li>
+                        <img src="./images/project-4.jpg" alt="проект" width="370">
+                        <h2 class="projects-title">Проект Prime</h2>
+                        <p class="projects-text">Маркетинг</p>
+                    </li>
+                    <li>
+                        <img src="./images/project-5.jpg" alt="проект" width="370">
+                        <h2 class="projects-title">Проект Boxes</h2>
+                        <p class="projects-text">Приложение</p>
+                    </li>
+                    <li>
+                        <img src="./images/project-6.jpg" alt="проект" width="370">
+                        <h2 class="projects-title">Inspiration has no Borders</h2>
+                        <p class="projects-text">Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img src="./images/project-7.jpg" alt="проект" width="370">
+                        <h2 class="projects-title">Издание Limited Edition</h2>
+                        <p class="projects-text">Дизайн</p>
+                    </li>
+                    <li>
+                        <img src="./images/project-8.jpg" alt="проект" width="370">
+                        <h2 class="projects-title">Проект LAB</h2>
+                        <p class="projects-text">Маркетинг</p>
+                    </li>
+                    <li>
+                        <img src="./images/project-9.jpg" alt="проект" width="370">
+                        <h2 class="projects-title">Growing Business</h2>
+                        <p class="projects-text">Приложение</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
